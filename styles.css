@@ -1,3 +1,29 @@
+/* Main Page */
+body{
+    background-color: gray;
+    margin: 0px;
+}
+
+.nav-container{
+    background-image: linear-gradient(rgb(107, 93, 93), black);
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    height: 40px;
+}
+
+.nav-container a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.home-page-title{
+    background-color: blue;
+    text-align: center;
+}
+
+/* Portfolio */
 .portfolio-header{
     background-color: blue;
     text-align: center;
