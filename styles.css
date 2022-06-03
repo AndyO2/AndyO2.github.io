@@ -10,12 +10,22 @@ body{
     display: flex;
     justify-content: space-around;
     height: 40px;
+    overflow: hidden;
 }
 
 .nav-container a{
     color:white;
+    float: right;
+    text-align: center;
     text-decoration: none;
     font-family: 'Courier New', Courier, monospace;
+    font-size: 17px;
+    padding: 10px 14px;
+}
+
+.nav-container a:hover{
+    background-color: #ddd;
+    color: black;
 }
 
 .home-page-title{
