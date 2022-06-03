@@ -1,36 +1,55 @@
 /* Main Page */
 body{
-    background-color: gray;
-    margin: 0px;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
-.nav-container{
-    background-image: linear-gradient(rgb(107, 93, 93), black);
+/* Navigation Bar */
+.nav-bar ul{
     list-style: none;
-    display: flex;
-    justify-content: space-around;
-    height: 40px;
-    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    text-align: left;
 }
-
-.nav-container a{
-    color:white;
-    float: right;
-    text-align: center;
+.nav-bar li{
+    display: inline-block;
+}
+.nav-bar a{
     text-decoration: none;
-    font-family: 'Courier New', Courier, monospace;
-    font-size: 17px;
-    padding: 10px 14px;
-}
-
-.nav-container a:hover{
-    background-color: #ddd;
-    color: black;
-}
-
-.home-page-title{
-    background-color: blue;
+    color: rgb(54, 125, 192);
+    width: 100px;
+    display: block;
+    padding: 25px 20px;
     text-align: center;
+    font-weight: bold;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 14px;
+}
+.nav-bar a:hover{
+    text-decoration: underline;
+}
+
+.bg-image{
+    height: 100vh;
+    background: url('images/Personal\ Portfolio\ Background.png');
+    background-size: cover;
+    position: relative;
+}
+.hero-title{
+    font-size: 4.5rem;
+}
+.hero-desc{
+    font-size: 2rem;
+}
+.column{
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color:black;
 }
 
 /* Portfolio */
