@@ -18,7 +18,7 @@ body{
 }
 .nav-bar a{
     text-decoration: none;
-    color: rgb(54, 125, 192);
+    color: black;
     width: 100px;
     display: block;
     padding: 25px 20px;
@@ -50,6 +50,55 @@ body{
     left: 50%;
     transform: translate(-50%, -50%);
     color:black;
+}
+
+/* about me section */
+.about-me{
+    width: 100%;
+}
+.about-me-image{
+    background: url('images/Profile_Picture.png');
+    width: 50%;
+    float: left;
+}
+.about-me-text{
+    width: 50%;
+    float: right;
+    background-color: blue;
+}
+.mt-3{
+    margin-top: 3rem;
+}
+.mt-4{
+    margin-top: 4rem;
+}
+.pt-4{
+    padding-top: 4rem;
+}
+.container{
+    margin-top: 1.5rem;
+    padding-top: 1.5rem;
+}
+
+.text-center{
+    text-align: center;
+}
+
+/* social media icons styling */
+.social-icons {
+    font-size: 36px;
+    cursor: pointer;
+}
+.fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover {
+    color: white;
+}
+.fab {
+    color: #000000;
+}
+/* footer styling */
+#footer {
+    background-color: #808080;
+    text-align: center;
 }
 
 /* Portfolio */
