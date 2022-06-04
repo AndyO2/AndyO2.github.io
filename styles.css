@@ -57,14 +57,24 @@ body{
     width: 100%;
 }
 .about-me-image{
-    background: url('images/Profile_Picture.png');
-    width: 50%;
+    text-align: center;
+    width: 25%;
     float: left;
 }
 .about-me-text{
-    width: 50%;
+    width: 75%;
     float: right;
-    background-color: blue;
+    text-align: left;
+    font-size: 3rem;
+    font-family: monospace;
+}
+.section-title{
+    font-size: 4.5rem;
+}
+.row{
+    display: flex;
+}
+.column{
 }
 .mt-3{
     margin-top: 3rem;
