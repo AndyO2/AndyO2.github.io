@@ -16,7 +16,7 @@ body{
 }
 .nav-bar ul{
     list-style: none;
-    padding: 0;
+    padding-right: 50px;
     margin: 0;
     text-align: right;
 }
@@ -55,7 +55,7 @@ body{
     position: relative;
 }
 .hero-title{
-    padding-top: 100px;
+    padding-top: 10rem;
     font-size: 4.5rem;
 }
 .bg-image-icons i:hover{
@@ -63,6 +63,7 @@ body{
 }
 .hero-desc{
     font-size: 2rem;
+    background-color: black;
 }
 .column{
     text-align: center;
@@ -126,18 +127,26 @@ body{
     width: 100%;
     color: white;
 }
-.about-me-image{
-    text-align: center;
-    width: 25%;
-    float: left;
-}
 .about-me-text{
-    width: 75%;
-    float: right;
     text-align: left;
-    font-size: 3rem;
+    font-size: 2rem;
     font-family: 'Montserrat Alternates', sans-serif;
-    color: white;
+    width: 50%;
+    display: block;
+    padding-left: 5rem;
+    padding-right: 5rem;
+}
+.skills-text{
+    display: block;
+    width: 50%;
+    float: right;
+    font-size: 2rem;
+    font-family: 'Montserrat Alternates', sans-serif;
+    padding-right: 5rem;
+    padding-left: 5rem;
+}
+.relative-skills{
+    list-style: none;
 }
 .section-title{
     font-size: 4.5rem;
