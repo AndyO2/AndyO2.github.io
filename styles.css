@@ -1,6 +1,6 @@
 /* Main Page */
 body{
-    background-color: white;
+    background-color: black;
     margin: 0;
     padding: 0;
     font-family: Arial, Helvetica, sans-serif;
@@ -19,7 +19,7 @@ body{
 .nav-bar button{
     border: none;
     background-color: inherit;
-    color: black;
+    color: rgb(27, 128, 146);
     display: inline-block;
     padding: 14px 28px;
     font-weight: bold;
@@ -28,18 +28,31 @@ body{
 }
 .nav-bar button:hover{
     cursor: pointer;
-    background-color: lightblue;
+    background-color: lightgray;
 }
 
 /* Hero section */
 .bg-image{
     height: 100vh;
-    background: url('images/Profile_Picture.png');
+    background: url('images/test.jpg');
     background-size: cover;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+.bg-image-icons i{
+    color: white;
+    font-size: 36px;
+    padding-left: 10px;
+    padding-right: 10px;
     position: relative;
 }
 .hero-title{
+    padding-top: 100px;
     font-size: 4.5rem;
+}
+.bg-image-icons i:hover{
+    color:rgb(27, 128, 146);
 }
 .hero-desc{
     font-size: 2rem;
@@ -47,21 +60,20 @@ body{
 .column{
     text-align: center;
     position: absolute;
-    top: 50%;
+    top: 10%;
     left: 50%;
     transform: translate(-50%, -50%);
-    color:black;
+    color: rgb(27, 128, 146);
 }
 
 /* personal projects section */
 .projects-row{
     display: flex;
-    padding: 0 4px;
+    padding: 0 4vh;
     width: 100%;
 }
 .projects-column{
     position: relative;
-    width: 50%;
 }
 .projects-column:hover .image{
     opacity: 0.3;
@@ -84,6 +96,7 @@ body{
     height: auto;
     transition: .5s ease;
     backface-visibility: hidden;
+    border-radius: 50%;
 }
 .projects-column img{
     margin-top: 5px;
@@ -104,6 +117,7 @@ body{
 /* about me section */
 .about-me{
     width: 100%;
+    color: white;
 }
 .about-me-image{
     text-align: center;
@@ -116,9 +130,11 @@ body{
     text-align: left;
     font-size: 3rem;
     font-family: monospace;
+    color: white;
 }
 .section-title{
     font-size: 4.5rem;
+    color: white;
 }
 .row{
     display: flex;
@@ -147,14 +163,13 @@ body{
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover {
-    color: white;
+    color: rgb(27, 128, 146);
 }
 .fab {
-    color: #000000;
+    color: white;
 }
 /* footer styling */
 #footer {
-    background-color: #808080;
     text-align: center;
 }
 
