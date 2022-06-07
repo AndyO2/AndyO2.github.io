@@ -16,24 +16,25 @@ body{
 .nav-bar li{
     display: inline-block;
 }
-.nav-bar a{
-    text-decoration: none;
+.nav-bar button{
+    border: none;
+    background-color: inherit;
     color: black;
-    width: 100px;
-    display: block;
-    padding: 25px 20px;
-    text-align: center;
+    display: inline-block;
+    padding: 14px 28px;
     font-weight: bold;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    font-size: 14px;
+    font-size: 16px;
 }
-.nav-bar a:hover{
-    text-decoration: underline;
+.nav-bar button:hover{
+    cursor: pointer;
+    background-color: lightblue;
 }
 
+/* Hero section */
 .bg-image{
     height: 100vh;
-    background: url('images/Personal\ Portfolio\ Background.png');
+    background: url('images/Profile_Picture.png');
     background-size: cover;
     position: relative;
 }
