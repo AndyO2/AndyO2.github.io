@@ -3,15 +3,22 @@ body{
     background-color: black;
     margin: 0;
     padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
 }
 
 /* Navigation Bar */
+.nav-bar{
+    background-color: black;
+    z-index: 10000;
+    position: fixed;
+    top: 0px;
+    width: 100%;
+}
 .nav-bar ul{
     list-style: none;
     padding: 0;
     margin: 0;
-    text-align: left;
+    text-align: right;
 }
 .nav-bar li{
     display: inline-block;
@@ -21,9 +28,9 @@ body{
     background-color: inherit;
     color: rgb(27, 128, 146);
     display: inline-block;
-    padding: 14px 28px;
+    padding: 14px 14px;
     font-weight: bold;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Montserrat Alternates', sans-serif;
     font-size: 16px;
 }
 .nav-bar button:hover{
@@ -129,7 +136,7 @@ body{
     float: right;
     text-align: left;
     font-size: 3rem;
-    font-family: monospace;
+    font-family: 'Montserrat Alternates', sans-serif;
     color: white;
 }
 .section-title{
