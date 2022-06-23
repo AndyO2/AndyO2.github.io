@@ -168,16 +168,10 @@ body{
     padding: 16px 32px;
     text-decoration: none;
 }
-.project-caption{
-    color: white;
-    width: 500px;
-    height: auto;
-    background-color: rgb(27, 128, 146);
-}
 
 /* social media icons styling */
 .social-icons {
-    font-size: 36px;
+    font-size: calc(10px + 3vw);
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover {
