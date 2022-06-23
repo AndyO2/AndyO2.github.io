@@ -127,9 +127,11 @@ body{
 }
 
 /* personal projects section */
+.personal-projects{
+    width: 100%;
+}
 .projects-column{
     position: relative;
-    width: auto;
     padding: 20px;
 }
 .projects-column:hover .image{
@@ -143,10 +145,10 @@ body{
     opacity: 1;
     transition: .5s ease;
     outline: 5px solid rgb(27, 128, 146);
-    width: 500px;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
+    max-width: 100%;
 }
 .middle{
     transition: 0.5s ease;
