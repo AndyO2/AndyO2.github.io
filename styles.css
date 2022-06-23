@@ -16,7 +16,7 @@ body{
 }
 .nav-bar ul{
     list-style: none;
-    padding-right: 50px;
+    padding-right: 1vw;
     margin: 0;
     text-align: right;
 }
@@ -31,7 +31,7 @@ body{
     padding: 14px 14px;
     font-weight: bold;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 16px;
+    font-size:calc(6px + 1vw);
 }
 .nav-bar button:hover{
     cursor: pointer;
@@ -55,13 +55,13 @@ body{
 }
 .hero-title{
     padding-top: 275px;
-    font-size: 4.5rem;
+    font-size: 5vw;
 }
 .bg-image-icons i:hover{
     color:rgb(27, 128, 146);
 }
 .hero-desc{
-    font-size: 2rem;
+    font-size: 2vw;
     background-color: black;
 }
 .column{
@@ -80,24 +80,25 @@ body{
 }
 .about-me-text{
     text-align: left;
-    font-size: 2rem;
+    font-size: 2vw;
     font-family: 'Montserrat Alternates', sans-serif;
     width: 50%;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .skills-text{
-    width: 50%;
-    font-size: 2rem;
+    text-align: left;
+    font-size: 2vw;
     font-family: 'Montserrat Alternates', sans-serif;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .relative-skills{
     list-style: none;
 }
 .section-title{
-    font-size: 4.5rem;
+    font-size: 5vw;
     color: rgb(27, 128, 146);
 }
 .row{
@@ -123,7 +124,7 @@ body{
 }
 .vl {
     border-left: 3px solid rgb(27, 128, 146);
-    height: 500px;
+    height: inherit;
 }
 
 /* personal projects section */
@@ -132,7 +133,7 @@ body{
 }
 .projects-column{
     position: relative;
-    padding: 20px;
+    padding: 2vh;
 }
 .projects-column:hover .image{
     opacity: 0.3;
@@ -163,7 +164,7 @@ body{
 .text {
     background-color: rgb(27, 128, 146);
     color: white;
-    font-size: 16px;
+    font-size: 2vw;
     padding: 16px 32px;
     text-decoration: none;
 }

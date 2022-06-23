@@ -8,7 +8,7 @@ homeButton.addEventListener('click', ()=>{
 let aboutMeButton = document.querySelector('.aboutMeScrollLink');
 aboutMeButton.addEventListener('click', ()=>{
     window.scroll({
-        top:900,
+        top:800,
         behavior: 'smooth'
     })
 })
