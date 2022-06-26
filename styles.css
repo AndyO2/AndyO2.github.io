@@ -48,7 +48,7 @@ body{
 }
 .bg-image-icons i{
     color: white;
-    font-size: 36px;
+    font-size: calc(15px + 2vw);
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
@@ -171,7 +171,7 @@ body{
 
 /* social media icons styling */
 .social-icons {
-    font-size: calc(10px + 3vw);
+    font-size: calc(15px + 2vw);
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover {
