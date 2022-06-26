@@ -55,13 +55,13 @@ body{
 }
 .hero-title{
     padding-top: 275px;
-    font-size: 5vw;
+    font-size: calc(30px + 3vw);
 }
 .bg-image-icons i:hover{
     color:rgb(27, 128, 146);
 }
 .hero-desc{
-    font-size: 2vw;
+    font-size: calc(5px + 2vw);
     background-color: black;
 }
 .column{
@@ -80,7 +80,7 @@ body{
 }
 .about-me-text{
     text-align: left;
-    font-size: 2vw;
+    font-size: calc(10px + 2vw);
     font-family: 'Montserrat Alternates', sans-serif;
     width: 50%;
     padding-left: 2rem;
@@ -88,7 +88,7 @@ body{
 }
 .skills-text{
     text-align: left;
-    font-size: 2vw;
+    font-size: calc(6px + 2vw);
     font-family: 'Montserrat Alternates', sans-serif;
     width: 50%;
     padding-left: 2rem;
@@ -98,7 +98,7 @@ body{
     list-style: none;
 }
 .section-title{
-    font-size: 5vw;
+    font-size: calc(6px + 5vw);
     color: rgb(27, 128, 146);
 }
 .row{
