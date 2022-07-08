@@ -16,9 +16,8 @@ body{
 }
 .nav-bar ul{
     list-style: none;
-    padding-right: 50px;
     margin: 0;
-    text-align: right;
+    text-align: center;
 }
 .nav-bar li{
     display: inline-block;
@@ -31,7 +30,7 @@ body{
     padding: 14px 14px;
     font-weight: bold;
     font-family: 'Montserrat Alternates', sans-serif;
-    font-size: 16px;
+    font-size:calc(6px + 1vw);
 }
 .nav-bar button:hover{
     cursor: pointer;
@@ -42,28 +41,26 @@ body{
 .bg-image{
     height: 100vh;
     width: 100%;
-    background: url('images/test.jpg');
+    background: url('images/HeroBackground.jpg');
     background-size: cover;
-    position: relative;
-    display: flex;
-    justify-content: center;
+    background-position: center center;
 }
 .bg-image-icons i{
     color: white;
-    font-size: 36px;
+    font-size: calc(15px + 2vw);
     padding-left: 10px;
     padding-right: 10px;
     position: relative;
 }
 .hero-title{
-    padding-top: 10rem;
-    font-size: 4.5rem;
+    padding-top: 275px;
+    font-size: calc(30px + 3vw);
 }
 .bg-image-icons i:hover{
     color:rgb(27, 128, 146);
 }
 .hero-desc{
-    font-size: 2rem;
+    font-size: calc(5px + 2vw);
     background-color: black;
 }
 .column{
@@ -82,24 +79,25 @@ body{
 }
 .about-me-text{
     text-align: left;
-    font-size: 2rem;
+    font-size: calc(10px + 2vw);
     font-family: 'Montserrat Alternates', sans-serif;
     width: 50%;
-    padding-left: 5rem;
-    padding-right: 5rem;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .skills-text{
-    width: 50%;
-    font-size: 2rem;
+    text-align: left;
+    font-size: calc(6px + 2vw);
     font-family: 'Montserrat Alternates', sans-serif;
-    padding-right: 5rem;
-    padding-left: 5rem;
+    width: 50%;
+    padding-left: 2rem;
+    padding-right: 2rem;
 }
 .relative-skills{
     list-style: none;
 }
 .section-title{
-    font-size: 4.5rem;
+    font-size: calc(6px + 5vw);
     color: rgb(27, 128, 146);
 }
 .row{
@@ -125,14 +123,16 @@ body{
 }
 .vl {
     border-left: 3px solid rgb(27, 128, 146);
-    height: 500px;
+    height: inherit;
 }
 
 /* personal projects section */
+.personal-projects{
+    width: 100%;
+}
 .projects-column{
     position: relative;
-    width: auto;
-    padding: 20px;
+    padding: 2vh;
 }
 .projects-column:hover .image{
     opacity: 0.3;
@@ -145,10 +145,10 @@ body{
     opacity: 1;
     transition: .5s ease;
     outline: 5px solid rgb(27, 128, 146);
-    width: 500px;
     height: auto;
     object-fit: cover;
     border-radius: 50%;
+    max-width: 100%;
 }
 .middle{
     transition: 0.5s ease;
@@ -163,20 +163,14 @@ body{
 .text {
     background-color: rgb(27, 128, 146);
     color: white;
-    font-size: 16px;
+    font-size: 2vw;
     padding: 16px 32px;
     text-decoration: none;
-}
-.project-caption{
-    color: white;
-    width: 500px;
-    height: auto;
-    background-color: rgb(27, 128, 146);
 }
 
 /* social media icons styling */
 .social-icons {
-    font-size: 36px;
+    font-size: calc(15px + 2vw);
     cursor: pointer;
 }
 .fa-facebook:hover,.fa-instagram:hover,.fa-twitter:hover,.fa-linkedin:hover, .fa-twitch:hover, .fa-github:hover {
