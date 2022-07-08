@@ -8,7 +8,7 @@ homeButton.addEventListener('click', ()=>{
 let aboutMeButton = document.querySelector('.aboutMeScrollLink');
 aboutMeButton.addEventListener('click', ()=>{
     window.scroll({
-        top:800,
+        top:900,
         behavior: 'smooth'
     })
 })
@@ -16,7 +16,7 @@ aboutMeButton.addEventListener('click', ()=>{
 let personalProjectsButton = document.querySelector('.personalProjectsScrollLink');
 personalProjectsButton.addEventListener('click', ()=>{
     window.scroll({
-        top:1600,
+        top:2000,
         behavior: 'smooth'
     })
 })
