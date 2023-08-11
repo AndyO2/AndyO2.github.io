@@ -6,6 +6,30 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.essay-container {
+    max-width: 50%;
+    margin: 0 auto;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.essay-title {
+    font-size: calc(6px + 2vw);
+    color: rgb(27, 128, 146);
+}
+
+.essay-content{
+    margin-left: 10%;
+    margin-right: 10%;
+    color: white;
+}
+
+.divider {
+    border-top: 1px solid #ccc;
+    margin-top: 20px;
+    padding-top: 20px;
+}
+
 /* Navigation Bar */
 .nav-bar{
     background-color: black;
