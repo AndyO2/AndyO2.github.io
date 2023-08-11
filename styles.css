@@ -6,6 +6,11 @@ body{
     font-family: 'Montserrat Alternates', sans-serif;
 }
 
+.link{
+    color: rgb(27, 128, 146);
+    font-size: 30px;
+}
+
 .essay-container {
     max-width: 50%;
     margin: 0 auto;
